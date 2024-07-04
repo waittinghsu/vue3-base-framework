@@ -6,7 +6,7 @@ export default [
     response: () => {
       return {
         code: 200,
-        data: [1, 2, 3, 4, 5],
+        data: Array.from({ length: 50 }, ()=> Math.floor(Math.random() * 1000000)),
       };
     },
   },

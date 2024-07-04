@@ -5,7 +5,8 @@ import router from './router';
 import { createPinia } from 'pinia';
 import { createPersistedState } from 'pinia-plugin-persistedstate';
 
-import './styles/global.scss';
+import '@/styles/global.scss';
+import '@/styles/main.css';
 
 const app = createApp(App);
 const pinia = createPinia();

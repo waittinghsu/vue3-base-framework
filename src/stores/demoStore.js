@@ -1,6 +1,6 @@
 // stores/demoStore.js
 import { defineStore } from 'pinia';
-import { fetchDemo } from '../api/fetchDemo'; 
+import { fetchDemo } from '@/api/fetchDemo';
 
 export const useDemoStore = defineStore({
   id: 'demo',
