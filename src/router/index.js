@@ -4,7 +4,7 @@ import { mainRoutes } from './systemRouter';
 const routes = [
 	{
 		path: '/',
-		redirect: '/fantastic/demo/dashboard',
+		redirect: '/fantastic',
 	},
 	...mainRoutes,
 ];
